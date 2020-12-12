@@ -83,7 +83,8 @@ where
         history.push(transaction);
         let history_hash = history.object_hash();
 
-        let wallet = wallet.set_frozen_balance(((wallet.freezed_balance as i64) + frozen_balance_change) as u64, &history_hash);
+        let wallet_frozen_balance = (wallet.frozen_balance as i64);
+        let wallet = wallet.set_frozen_balance(( wallet_frozen_balance + frozen_balance_change) as u64, &history_hash);
 
         let wallet_key = wallet.owner;
         self.public.wallets.put(&wallet_key, wallet);
@@ -98,7 +99,8 @@ where
         history.push(transaction);
         let history_hash = history.object_hash();
 
-        let wallet = wallet.set_frozen_balance(((wallet.freezed_balance as i64) - frozen_balance_change) as u64, &history_hash);
+        let wallet_frozen_balance = (wallet.frozen_balance as i64);
+        let wallet = wallet.set_frozen_balance((wallet_frozen_balance - frozen_balance_change) as u64, &history_hash);
 
         let wallet_key = wallet.owner;
         self.public.wallets.put(&wallet_key, wallet);
