@@ -2,7 +2,12 @@
 
 **HomeWork**
 Homework done by Denis Kumar and Dneprov Danila. For the course `Smart contracts`
-###What's done:
+
+
+## What's done:
+- [x] Task 1
+- [x] Task 2
+---
 [x] First Task
 [x] Second Task
 
