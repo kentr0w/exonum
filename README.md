@@ -1,5 +1,11 @@
 # Exonum
 
+**HomeWork**
+Homework done by Denis Kumar and Dneprov Danila. For the course `Smart contracts`
+###What's done:
+[x] First Task
+[x] Second Task
+
 **Status:**
 [![Travis Build Status](https://img.shields.io/travis/exonum/exonum/master.svg?label=Linux)](https://travis-ci.com/exonum/exonum)
 [![dependency status](https://deps.rs/repo/github/exonum/exonum/status.svg)](https://deps.rs/repo/github/exonum/exonum)
